@@ -1,0 +1,69 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore – Магазин техніки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TechStore</div>
+        <nav>
+            <a href="#">Головна</a>
+            <a href="#products">Товари</a>
+            <a href="#about">Про нас</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Техніка майбутнього вже тут</h1>
+        <p>Смартфони, ноутбуки, навушники та аксесуари за найкращими цінами.</p>
+        <a href="#products" class="btn">Переглянути товари</a>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Наші товари</h2>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5" alt="Смартфон">
+                <h3>Смартфон XPhone 12</h3>
+                <p class="price">12 999 грн</p>
+                <button>Купити</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="Ноутбук">
+                <h3>Ноутбук UltraBook Pro</h3>
+                <p class="price">27 499 грн</p>
+                <button>Купити</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Навушники">
+                <h3>Навушники BassBoost</h3>
+                <p class="price">2 399 грн</p>
+                <button>Купити</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Про нас</h2>
+        <p>TechStore — це сучасний магазин техніки, який пропонує новітні гаджети, доступні ціни та швидку доставку по всій Україні.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Контакти</h2>
+        <p>📍 Україна, м. Київ</p>
+        <p>📞 +38 (099) 123-45-67</p>
+        <p>📧 support@techstore.ua</p>
+    </section>
+
+    <footer>
+        © 2025 TechStore. Усі права захищені.
+    </footer>
+</body>
+</html>
